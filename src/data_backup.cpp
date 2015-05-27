@@ -152,7 +152,7 @@ int FileBak::push(void* data)
  * @retval   
  * @see 
  * @note 
- * @author qinbin
+ * @author whuqin
  * @date 2013/09/12 15:30:41
 **/
 int FileBak::reload(vector<void*>& items)

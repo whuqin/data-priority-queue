@@ -35,7 +35,7 @@
  * @param [in/out] size   : int
  * @see 
  * @note 
- * @author qinbin
+ * @author whuqin
  * @date 2013/09/12 15:49:52
 **/
 Queue::Queue(int size):size_(size + 1),tail_(0), head_(0)
@@ -91,7 +91,7 @@ int Queue::push(void* data)
  * @retval   
  * @see 
  * @note 
- * @author qinbin
+ * @author whuqin
  * @date 2013/09/12 15:50:36
 **/
 int Queue::push_any(void* data)
@@ -115,7 +115,7 @@ int Queue::push_any(void* data)
  * @retval   
  * @see 
  * @note 
- * @author qinbin
+ * @author whuqin
  * @date 2013/09/12 16:07:02
 **/
 int Queue::get(void*& data)
